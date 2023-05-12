@@ -1,9 +1,5 @@
 /* Mobile & Tablet */
 @media (max-width: 1023px) {
-  :root {
-    --header-height: 68px;
-    --header-navbar: 0px;
-  }
   .hide-on-mobile-tablet {
     display: none;
   }
@@ -38,6 +34,10 @@
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
+  :root {
+    --header-height: 68px;
+    --header-navbar: 0px;
+  }
   .hide-on-tablet {
     display: none;
   }
@@ -49,6 +49,10 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+  :root {
+    --header-height: 54px;
+    --header-navbar: 0px;
+  }
   .hide-on-mobile {
     display: none;
   }
@@ -113,5 +117,23 @@
   /* footer */
   .bg-1 {
     padding: 0 16px;
+  }
+  .footer__heading {
+    text-align: center;
+  }
+  .footer__download,
+  .footer__item--link {
+    justify-content: center;
+  }
+  .footer__download {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 12px 0;
+  }
+  .footer__download-app {
+    flex-direction: row;
+  }
+  .footer__download-app-img {
+    margin: 0 8px 0 0;
   }
 }
