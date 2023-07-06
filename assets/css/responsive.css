@@ -122,8 +122,8 @@
     text-align: center;
   }
   .footer__download,
-  .footer__item--link {
-    justify-content: center;
+  .footer-item__link {
+    text-align: center;
   }
   .footer__download {
     flex-direction: column;

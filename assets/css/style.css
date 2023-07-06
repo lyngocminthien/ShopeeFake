@@ -1344,8 +1344,7 @@
   padding: 0;
 }
 .footer-item__link {
-  display: flex;
-  justify-content: center;
+  display: block;
   font-size: 1.2rem;
   color: #585858;
   text-decoration: none;
